@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/prayTimeAllFragment">
+
+    <fragment
+        android:id="@+id/prayTimeAllFragment"
+        android:name="com.ozancanguz.praytimes.ui.fragments.alltimes.PrayTimeAllFragment"
+        android:label="fragment_pray_time_all"
+        tools:layout="@layout/fragment_pray_time_all" />
+    <fragment
+        android:id="@+id/singlePrayTimeFragment"
+        android:name="com.ozancanguz.praytimes.ui.fragments.single.SinglePrayTimeFragment"
+        android:label="fragment_single_pray_time"
+        tools:layout="@layout/fragment_single_pray_time" />
+</navigation>

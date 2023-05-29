@@ -22,8 +22,8 @@ class SearchByDayAdapter : RecyclerView.Adapter<SearchByDayAdapter.SearchViewHol
 
     override fun onBindViewHolder(holder: SearchViewHolder, position: Int) {
         val currentTime = searchByDayList[position]
-        holder.binding.timeTv.text = currentTime.saat
-        holder.binding.statusTv.text = currentTime.vakit
+        holder.binding.timeTv.text = "Time:" +currentTime.saat
+        holder.binding.statusTv.text = "Status: " +currentTime.vakit
     }
 
     override fun getItemCount(): Int {

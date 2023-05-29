@@ -8,11 +8,11 @@
     <fragment
         android:id="@+id/prayTimeAllFragment"
         android:name="com.ozancanguz.praytimes.ui.fragments.alltimes.PrayTimeAllFragment"
-        android:label="fragment_pray_time_all"
+        android:label="Search By Day"
         tools:layout="@layout/fragment_pray_time_all" />
     <fragment
         android:id="@+id/singlePrayTimeFragment"
         android:name="com.ozancanguz.praytimes.ui.fragments.single.SinglePrayTimeFragment"
-        android:label="fragment_single_pray_time"
+        android:label="Search By Time"
         tools:layout="@layout/fragment_single_pray_time" />
 </navigation>
